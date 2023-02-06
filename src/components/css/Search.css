@@ -1,0 +1,694 @@
+:root{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  
+    }  
+.third-part{
+      overflow:hidden;
+width: 100%;
+}
+
+.search{
+    margin-top: 54px;
+    display: flex;
+    width: 1240px;
+    background-color: white;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:2px 2px 8px 0px #88888878;
+}
+.search h1{
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 34px;
+}
+.search-input{
+    margin-top: -30px;
+}
+
+.search-input h1{
+    font-size: 14px;
+    color: #b8b2b2;
+    font-weight: 400;
+}
+.search-input input{
+    width: 965px;
+ border-bottom: 1px solid #c0b7b7;
+}
+
+.search-option{
+    margin-top:36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-option li {
+    
+    margin: 7px;
+    padding: 8px;
+    font-size: 15px;
+    list-style: none;
+    color: grey;
+    font-weight: 100;
+    border: 1px solid grey;
+    border-radius: 14px;
+}
+
+.li-item{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+hr{
+    margin-top: 21px;
+    width: 965px;
+    height: -6px;
+    color: #c0b7b7;
+}
+
+.arrow{
+    align-items: center;
+    margin-top: 21px;
+    display: flex;
+    margin-left: 880px;
+}
+.arrow i{
+    margin-left: 8px;
+    font-size: 21px;
+    color: gray;
+    margin-top: -8px;
+}
+.arrow .para{
+    font-size: 15px;
+    color:#8f8686 ;
+}
+
+.Searchbody {
+    width:300px;
+    height: 275px;
+    border: 1px solid #eae3e39c;
+    margin: 18px;
+}
+.Searchbody:hover {
+    box-shadow:2px 1px 6px 0px #88888878;
+}
+.route-part p{
+    font-size: 17px;
+    color:#ff4500db;;
+    margin: 5px;
+    font-weight: 100;font-size: 16px;
+    margin: 5px;
+}
+
+.Searchbody img{
+    width: 300px;
+    height: 191px;
+}
+
+.seaarch-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.heading{
+    margin-left: 23px;
+}
+.heading2{
+    font-weight: 50;
+    margin-right: 23px;
+}
+
+.heading h1{
+   
+    font-size: 18px;
+color: black;
+}
+.heading p{
+    color: #c8bfbf;
+}
+.heading2 p{
+    color: #c8bfbf;
+}
+.heading i{
+    padding-left: 5px;
+    /* padding: 3px; */
+    padding-right: 5px;
+
+}
+
+.heading2 h1{
+    font-size: 18px;
+    color:black
+}
+.search-card{
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+.search button{
+    cursor: pointer;
+    height: 49px;
+    color: grey;
+    background-color: #80808026;
+    font-weight: 100;
+    font-size: 15px;
+    width: 985px;
+    margin-right: 17px;
+    margin-bottom: 54px;
+}
+.third-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5bbbb00;
+}
+
+.routesbody .imgg{
+    height: 51px;
+    width: 52px;
+    border-radius: 83px;
+    margin: 12px;
+}
+.routesbody img{
+    height: 51px;
+    width: 52px;
+    border-radius: 83px;
+}
+
+.routes{
+    margin-top: 54px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 1240px;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow:2px 1px 6px 0px #88888878;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.routes h1{
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+
+.routesbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.para2{
+    margin-top: -33px;
+}
+.para2 h1{
+    font-size: 17px;
+    font-weight: 549;
+    color: black;
+}
+/* .route-part p{
+    font-size: 17px;
+    color:#ff4500db;;
+    margin: 5px;
+    font-weight: 100;font-size: 16px;
+    margin: 5px;
+}
+.routes h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+.faqs h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+} */
+.search h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.route-part{
+    display: flex;
+    margin-top: -32px;
+
+    align-items: center;
+}
+.routes-part1{
+        margin-bottom: 31px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -8px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.faqs{
+    
+    margin-bottom: 55px;
+    box-shadow:2px 1px 6px 0px #88888878;
+    margin-top: 18px;
+    display: flex;
+    width: 1240px;
+    background-color: white;
+    border: 2px solid white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faqs h1{
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+.detail{
+    display: grid;
+    border-bottom: 1px solid grey;
+    grid-template-columns: 1120px 20px;
+    align-items: center;
+}
+.detail-last{
+    margin-bottom: 26px;
+    display: grid;
+    grid-template-columns: 1120px 20px;
+    align-items: center;
+}
+.detail p{
+    font-size: 20px;
+}
+.detail-last p{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1299px) {
+  .search{
+    width:1090px;
+  }
+  .routes{
+    width:1090px;
+  }
+  .faqs{
+    width:1090px;
+  }
+  .detail{
+    grid-template-columns: 1025px 20px;
+  }
+  .detail-last{
+    grid-template-columns: 1025px 20px;
+  }
+}
+
+@media screen and (max-width:1120px) {
+    .routes {
+        width: 900px;
+    }
+  .search{
+    width:900px;
+  }
+  .faqs{
+    width:900px;
+  }
+  .search-input input {
+    width: 873px;
+    border-bottom: 1px solid #c0b7b7;
+}
+hr {
+    margin-top: 21px;
+    width: 900px;
+    height: -6px;
+    color: #c0b7b7;
+}
+.arrow {
+    align-items: center;
+    margin-top: 21px;
+    display: flex;
+    margin-left: 800px;
+}
+.search button {
+    cursor: pointer;
+    height: 49px;
+    color: grey;
+    background-color: #80808026;
+    font-weight: 100;
+    font-size: 15px;
+    width: 650px;
+    margin-right: 17px;
+    margin-bottom: 54px;
+}
+  .detail {
+    grid-template-columns: 821px 20px;
+}
+  .detail-last{
+    grid-template-columns: 821px 20px;
+  }
+}
+
+
+@media screen and (max-width:727px) {
+    .routes {
+        width: 500px;
+    }
+  .search{
+    width:500px;
+  }
+  .faqs{
+    width:500px;
+  }
+  .search h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+  .search-input input {
+    width: 482px;
+    border-bottom: 1px solid #c0b7b7;
+}
+.search-option li {
+    margin: 7px;
+    padding: 2px;
+    font-size: 8px;
+    list-style: none;
+    color: grey;
+    font-weight: 100;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+hr {
+    margin-top: 21px;
+    width: 500px;
+    height: -6px;
+    color: #c0b7b7;
+}
+.arrow {
+    align-items: center;
+    margin-top: 7px;
+    display: flex;
+    margin-left: 403px;
+}
+.search-option {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.li-item {
+    margin-bottom: -9px;
+    display: flex;
+    flex-direction: row;
+}
+.search button {
+    cursor: pointer;
+    height: 49px;
+    color: grey;
+    background-color: #80808026;
+    font-weight: 100;
+    font-size: 15px;
+    width: 348px;
+    margin-right: 17px;
+    margin-bottom: 54px;
+}
+  .detail {
+    grid-template-columns: 448px 20px;
+}
+  .detail-last{
+    grid-template-columns: 448px 20px;
+  }
+  .detail p {
+    font-size: 14px;
+}
+.detail-last p {
+    font-size: 14px;
+}
+  
+.routes h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+.para2 h1{
+        color: orangered;
+        margin-top: 38px;
+        font-weight: 500;
+        font-size: 23px;
+        margin-top: 48px;
+        margin-bottom: 30px;
+}
+.faqs h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 48px;
+    margin-bottom: 30px;
+}
+}
+
+@media screen and (max-width:543px) {
+    .search {
+        width: 350px;
+    }
+    .routes {
+        width: 350px;
+    }
+  .faqs{
+    width:350px;
+  }
+  .search-input input {
+    width: 336px;
+    border-bottom: 1px solid #c0b7b7;
+}
+hr {
+    margin-top: 21px;
+    width: 350px;
+    height: -6px;
+    color: #c0b7b7;
+}
+.arrow {
+    align-items: center;
+    margin-top: 7px;
+    display: flex;
+    margin-left: 255px;
+}
+.search-option li {
+    /* margin: 7px; */
+    /* padding-bottom: 0px; */
+    padding: 2px;
+    font-size: 4px;
+    list-style: none;
+    color: grey;
+    font-weight: 100;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+.search-input h1 {
+    color: #948e8c;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.routes h1 {
+    color: orangered;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 23px;}
+    .para2 h1 {
+        color: orangered;
+        margin-top: 38px;
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 48px;
+        margin-bottom: 30px;
+    }
+    .route-part p {
+        font-size: 17px;
+        color: #ff4500db;
+        margin: 5px;
+        font-weight: 100;
+        font-size: 11px;
+        margin: 5px;
+    }
+    .detail {
+        grid-template-columns: 315px 20px;
+    }
+    .detail-last {
+        grid-template-columns: 315px 20px;
+    }
+    .detail p {
+        font-size: 9px;
+    }
+    
+    .detail-last p {
+        font-size: 9px;
+    }
+    .search button {
+        cursor: pointer;
+        height: 49px;
+        color: grey;
+        background-color: #80808026;
+        font-weight: 100;
+        font-size: 15px;
+        width: 302px;
+        margin-right: 17px;
+        margin-bottom: 54px;
+    }
+        
+}
+
+
+@media screen and (max-width:374px) {
+    .search {
+        width: 275px;
+    }
+    .routes {
+        width: 275px;
+    }
+  .faqs{
+    width:275px;
+  }
+  .search-input input {
+    width: 265px;
+    border-bottom: 1px solid #c0b7b7;
+}
+hr {
+    margin-top: 21px;
+    width: 275px;
+    height: -6px;
+    color: #c0b7b7;
+}
+.search-input h1 {
+    color: #948e8c;
+    margin-top: 38px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.search-option li {
+    /* margin: 7px; */
+    /* padding-bottom: 0px; */
+    padding: 2px;
+    margin-right: -6px;
+    font-size: 5px;
+    list-style: none;
+    color: grey;
+    font-weight: 100;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+.arrow {
+    align-items: center;
+    margin-top: 7px;
+    display: flex;
+    margin-left: 181px;
+}
+.search button {
+    cursor: pointer;
+    height: 49px;
+    color: grey;
+    background-color: #80808026;
+    font-weight: 100;
+    font-size: 13px;
+    width: 255px;
+    margin-right: 17px;
+    margin-bottom: 54px;
+}
+    .Searchbody img {
+        width: 253px;
+        height: 185px;
+    }
+    .heading {
+        margin-left: 13px;
+    }
+    .heading2 {
+        font-weight: 50;
+        margin-right: 12px;
+    }
+    .Searchbody {
+        width: 253px;
+        height: 275px;
+        border: 1px solid #eae3e39c;
+        margin: 18px;
+    }
+    .routes h1 {
+        color: orangered;
+        margin-top: 38px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .routesbody .imgg {
+        height: 39px;
+        width: 43px;
+        border-radius: 83px;
+        margin: 15px;
+    }
+    .para2 h1 {
+        color: orangered;
+        margin-top: 38px;
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 48px;
+        margin-bottom: 30px;
+    }
+    .route-part p {
+        font-size: 17px;
+        color: #ff4500db;
+        margin: 5px;
+        font-weight: 100;
+        font-size: 8px;
+        margin: 5px;
+    }
+    .faqs h1 {
+        color: orangered;
+        margin-top: 38px;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 47px;
+        margin-bottom: 30px;
+    }.detail {
+        grid-template-columns: 225px 20px;
+    }
+    .detail-last {
+        grid-template-columns: 225px 20px;
+    }
+    .detail p {
+        font-size: 7px;
+    }
+    .detail-last p {
+        font-size: 7px;
+    }
+}

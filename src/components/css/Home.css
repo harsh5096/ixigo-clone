@@ -1,0 +1,524 @@
+:root{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}    
+
+.home{
+     overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden; 
+    width: 100%;
+    height: 615px;
+    background-image: url("C:\Users\Himanshu joshi\Desktop\conpany-site\client\public\images\Mmain-picture.jpg");   
+    position: relative;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    align-items: center;
+    /* transition: 15s; */
+  animation-name: animate;
+  animation-direction:alertnate-reverse;
+  animation-duration:60s;
+  animation-duration:forwards;
+  animation-iteration-count: infinite;
+  animation-play-state:running;
+  /* animation-timing-function:ease-in-out; */
+} 
+
+ @keyframes animate{
+   0%
+    {
+        background-image: url("C:\Users\Himanshu joshi\Desktop\conpany-site\client\public\images\london.jpg");
+    }
+   20%
+    {
+        background-image: url("C:\Users\Himanshu joshi\Desktop\conpany-site\client\public\images\agra.jpg");
+    }
+   40%
+    {
+        background-image: url("C:\Users\Himanshu joshi\Desktop\conpany-site\client\public\images\kochi.jpg");
+    }
+   80%
+    {
+        background-image: url("C:\Users\Himanshu joshi\Desktop\conpany-site\client\public\images\balii.webp");
+    }
+   100%
+    {
+        background-image: url("C:\Users\Himanshu joshi\Desktop\conpany-site\client\public\images\uadaipur.jpg");
+    }
+
+} 
+
+ .snow, .snow:after,.snow::before{
+    width: 100%;
+    height: 475px;
+    position: absolute;
+    content: "";
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-image:
+radial-gradient(4px 4px at 100px 50px, #fff, transparent),
+radial-gradient(6px 4px at 200px 150px, #fff, transparent),
+radial-gradient(3px 3px at 300px 250px, #fff, transparent),
+radial-gradient(4px 4px at 400px 350px, #fff, transparent),
+radial-gradient(6px 4px at 500px 100px, #fff, transparent),
+radial-gradient(3px 3px at 50px 200px, #fff, transparent),
+radial-gradient(4px 4px at 150px 300px, #fff, transparent),
+radial-gradient(6px 4px at 250px 400px, #fff, transparent),
+radial-gradient(3px 3px at 380px 100px, #fff, transparent); 
+background-size: 650px 650px ;
+animation: homeAnim 5s linear;
+animation-iteration-count: infinite; 
+ } 
+
+.home:after{
+    margin-left: -250px;
+     /* opacity: 0.5px;  */
+     filter: blur(2px); 
+}
+.home::before{
+    margin-left: -350px;
+    /* opacity: 0.7px; */
+    filter: blur(1px);
+}
+@keyframes homeAnim{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(650px);
+    }
+}
+.home img{
+    width: 1325px;
+    margin-top: 369px;
+    position: absolute;
+}
+   
+.snow1{
+    width: 100%;
+    height: 150px;
+    margin-top: 137px;
+    background-color:#dad1d1;
+}
+
+.snow2{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    list-style: none;
+}
+.snow2 li{
+    padding-left: 45px;
+}
+.snow2 .oneway{
+        border-bottom: 3px solid #ff5722;
+        width: 111px;
+        padding-bottom: 9px;
+        padding-left: 21px;
+    }
+
+.middle-box{
+    margin-top: 80px;
+}
+
+    .snowform{
+        display: flex;
+        background-color: white;
+        width: 1325px;
+        height: 76px;
+        align-items: center;
+        border-radius: 4px;
+        width: 1325px;
+    }
+    .snowform .inputs{
+        padding-left :29px;
+    }
+
+    input{
+        border: white;
+        border-bottom: 1px solid #c6bfbf;
+        font-size: 16px;
+        padding-bottom: 3px;
+
+    }
+
+    .snowform button{
+        margin-left: 21px;
+        
+    margin-top: 12px;
+        padding: 9px;
+        background-color: orangered;
+        color: white;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 18px;
+        border: orangered;
+        font-weight: 600;
+    }
+
+    .snowform i{
+        padding-left: 18px;
+        color:#c6bfbf;
+    }
+
+    .mainnfirst{
+        display: grid;
+        grid-template-columns: 1050px 394px;
+        margin-top: 88px;
+    }
+
+    .booking{
+        /* margin-top: -57px; */
+        color: white;
+        display: flex;
+        align-items: center;
+        padding-left: 533px;
+    }
+    .booking .i{
+        color: #f8f5f5;
+        font-size: 50px;
+       
+    }
+    .booking h1{
+        color: white;
+        font-size: 21px;
+        margin-left: 30px;
+    }
+
+    .state{
+        display: flex;
+        flex-direction: column;
+        padding-right: 114px;
+        margin-top: -20px;
+        align-items: center;   
+    }
+    .state h1{
+        color: white;
+        font-size: 21px;
+    }
+    .state p{
+        color: white;
+        font-size: 20px;
+        margin-top: -10px;
+    }
+
+    .mainnfirst{
+        margin-top:88px
+    }
+ 
+    .snow1 img{
+        border: 1px solid white;
+
+        width: 1325px;
+        height: 135px;
+        margin-left: 100px;
+        background-color: #ff5722;
+        margin-top: -28px;
+    }
+    
+    @media screen and (max-width: 1360px) {
+        .snowform{
+            width:1088px;
+        }
+        .home img{
+            width:1088px;
+        }
+        .snowform .inputs {
+            padding-left: 11px;
+            font-size: 15px;
+            width: 164px;
+        }
+        .snowform button {
+            margin-left: 12px;
+            margin-left: 45px;
+            margin-top: 12px;
+            padding: 9px;
+            background-color: orangered;
+            color: white;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 18px;
+            border: orangered;
+            font-weight: 600;
+        }
+    }
+    @media screen and (max-width: 1118px) {
+        .snowform{
+            width:900px;
+        }
+        .home img{
+            width:900px;
+        }
+        input {
+    border: white;
+    border-bottom: 1px solid #c6bfbf;
+    font-size: 11px;
+    padding-bottom: 3px;
+}
+        .snowform .inputs {
+            padding-left: 11px;
+            font-size: 15px;
+            width: 164px;
+        }
+        strong{
+            margin-right: 12px;
+        }
+     .snowform button {
+    margin-left: 12px;
+    margin-right: 39px;
+    margin-left: 25px;
+    margin-top: 12px;
+    padding: 9px;
+    background-color: orangered;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+    border: orangered;
+    font-weight: 600;
+}
+
+    }
+
+    @media screen and (max-width: 929px) {
+
+        .snowform {
+            width: 700px;
+        }
+        .home img {
+            height: 114px;
+            width: 700px;
+        }
+        .snow2 {
+            display: flex;
+            color: white;
+            font-size: 11px;
+            list-style: none;
+        }
+        .snowform .inputs {
+            padding-left: 8px;
+            font-size: 14px;
+            width: 104px;
+        }
+        .snowform button {
+            margin-left: 12px;
+            margin-right: 18px;
+            margin-left: 35px;
+            margin-top: 12px;
+            padding: 7px;
+            background-color: orangered;
+            color: white;
+            padding-left: 18px;
+            padding-right: 18px;
+            font-size: 12px;
+            border: orangered;
+            font-weight: 600;
+        }
+    }
+
+    @media screen and (max-width: 712px) {
+    .home {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+        height: 400px;
+        background-image: url(http://localhost:3000/static/media/Mmain-picture.ef741e7….jpg);
+        position: relative;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        /* transition: 15s; */
+        animation-name: animate;
+        animation-direction: alertnate-reverse;
+        animation-duration: 60s;
+        animation-duration: forwards;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        /* animation-timing-function: ease-in-out; */
+    }
+    .snow1 {
+        width: 100%;
+        height: 100px;
+        margin-top: 110px;
+        background-color: #dad1d1;
+    }
+    .snowform {
+        width: 500px;
+    }
+    .home img {
+        margin-bottom: 139px;
+        width: 500px;
+        height: 100px;
+    }
+
+    input {
+    border: white;
+    border-bottom: 1px solid #c6bfbf;
+    font-size: 6px;
+    padding-bottom: 3px;
+}
+.snowform .inputs {
+    padding-left: 4px;
+    font-size: 10px;
+    /* width: 89px; */
+}
+.snowform button {
+    margin-left: 12px;
+    margin-right: 18px;
+    padding-top: -17px;
+    height: 25px;
+    margin-left: 9px;
+    margin-top: 12px;
+    padding: 7px;
+    background-color: orangered;
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 12px;
+    border: orangered;
+    font-weight: 600;
+}
+.snow2 .oneway {
+    border-bottom: 3px solid #ff5722;
+    width: 61px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+}
+.snow2 li {
+    padding-left: 14px;
+}
+.booking h1 {
+    color: white;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.booking .i {
+    color: #f8f5f5;
+    font-size: 27px;
+}
+.snowform {
+    width: 500px;
+    height: 50px;
+}
+.mainnfirst {
+    margin-top: 53px;
+}
+.booking {
+    /* margin-top: 116px; */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 533px;
+    /* margin-top: -233px; */
+}
+.middle-box {
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 511px){
+    .mainnfirst {
+    margin-top: 15px;
+}
+    input {
+        border: white;
+        border-bottom: 1px solid #c6bfbf;
+        font-size: 3px;
+        padding-bottom: 2px;
+    }
+    .snowform .inputs {
+        padding-left: 3px;
+        font-size: 7px;
+        /* width: 89px; */
+    }
+    .snowform {
+    width: 500px;
+    height: 36px;
+}
+    .home img {
+    width: 500px;
+    height: 80px;
+}
+    .snowform button {
+        margin-left: 12px;
+        margin-right: 18px;
+        padding-top: -17px;
+        height: 16px;
+        margin-left: 9px;
+        margin-top: 12px;
+        padding: 0px;
+        background-color: orangered;
+        color: white;
+        padding-left: 7px;
+        padding-right: 7px;
+        font-size: 7px;
+        border: orangered;
+        font-weight: 600;
+    }
+.home{height: 232px;}
+.snowform{    width: 285px;}
+.home img {
+    margin-top: 271px;
+    width: 285px;
+    /* margin-bottom: -2px; */
+    FONT-WEIGHT: 800;
+    height: 50px;
+}
+.snowform i {
+    font-size: 0px;
+    /* padding-left: 18px; */
+    color: #c6bfbf;
+}
+input {
+    border: white;
+    border-bottom: 1px solid #c6bfbf;
+    font-size: 3px;
+    padding-bottom: 2px;
+}
+.snow1 {
+    width: 100%;
+    height: 53px;
+    /* margin-top: 110px; */
+    background-color: #dad1d1;
+    margin-top: 56px;
+}
+.snow2 li {
+    padding-left: 9px;
+    font-size: 9px;
+}
+.booking .i {
+    color: #f8f5f5;
+    font-size: 18px;
+}
+.booking h1 {
+    color: white;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.booking {
+
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 600px;
+}
+.middle-box {
+    margin-top: 31px;
+}
+.snow2 .oneway {
+    border-bottom: 3px solid #ff5722;
+    width: 61px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+}
+}
